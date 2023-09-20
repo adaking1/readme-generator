@@ -124,7 +124,7 @@ GitHub: [${data.github}](https://github.com/${data.github})
 Email: ${data.email}
 
 `;
-  }
+}
   
 module.exports = {
 markdown: generateMarkdown
