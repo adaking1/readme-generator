@@ -1,23 +1,17 @@
-
 # README Generator
 
 ## Table of Contents
-[Description](#Description)
-
-[Installation](#Installation)
-
-[Usage](#Usage)
-
-[Contributing](#Contributing)
-
-[Tests](#Tests)
-
-[License](#License)
-
-[Questions](#Questions)
+-[Description](#description)  
+-[Installation](#installation)  
+-[Usage](#usage)  
+-[Contributing](#contributing)  
+-[Tests](#tests)  
+-[Credits](#credits)  
+-[License](#license)  
+-[Questions](#questions)
 
 ## Description
-This application creates a professional read-me file for any repository or web-development project. 
+This application creates a professional read-me file for any repository or web-development project. It was created for web developers to easily create a read-me file for any repository they need. The app was created using node.js and its built in file system, as well as inquirer from npm.
 
 ## Installation
 Install this application by first installing node.js to your computer. Once that is done, install npm and inquirer version 8.2.4. The last thing to install is the built in file sytem (fs).promises.
@@ -31,13 +25,15 @@ To contribe, fork the project, create a branch to work on, edit tha branch, and 
 ## Tests
 To test this application or have your own empty README file template, press enter without typing an answer for any of the prompts. When the license prompt asks you to select a license from the list, select "None". You will see that a new  empty readme file is created in the folder you are in witch the only section containing anything is the license section. From there you can input text into each section manually. Furthermore, you can test this app by inputting whatever text you like into each section to familliarize yourself with its functionality.
 
+## Credits
+This app's code was sourced from a Uconn web development bootcamp in the following repo: https://git.bootcampcontent.com/University-of-Connecticut/CONN-VIRT-FSF-PT-07-2023-U-LOLC.git. Each of the functions were built my me on top of the sourced code structure.
+
 ## License
 This project is not protected under any license.
 
 
 
 ## Questions
+To view more of my work, view my GitHub profile: [adaking1](https://github.com/adaking1)
 
-GitHub: [adaking1](https://github.com/adaking1)
-
-Email: kinga1215@yahoo.com
+If you have any questions about this project please email me here: kinga1215@yahoo.com
