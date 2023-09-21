@@ -63,5 +63,3 @@ function writeToFile(fileName, data) {
 
 // This function call initializes the app when "node index.js" is entered in the terminal
 init();
-
-// make demo video and use that for readme

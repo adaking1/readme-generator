@@ -1,3 +1,4 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 # README Generator
 
 ## Table of Contents
@@ -17,7 +18,6 @@ This application creates a professional read-me file for any repository or web-d
 Install this application by first installing node.js to your computer. Once that is done, install npm and inquirer version 8.2.4. The last thing to install is the built in file sytem (fs).promises.
 
 ## Usage
-[Usage Demo](https://drive.google.com/file/d/16gQ32oEOn-hARem2ewjSghYW27_BJ7vX/view)  
 Start the application by first making sure your terminal is located in the folder that has the index.js for this project. Then, type "node index.js" into the terminal. This will trigger the app to start and you will first be asked to enter the title of the project. When you type your answer and press enter, your response will be saved and the next question will be asked. This process will be repeated for all questions except for the one about the license. This prompt will display options to choose from. When you use the arrow keys to navigate to the correct license and press enter, your answer is saved. Once all the prompts are answered, a file named "NewREADME.md" will be created with all of the entered responses formatted using Markdown, so it is ready to use in your GitHub repository.
 
 ## Contributing
@@ -30,11 +30,12 @@ To test this application or have your own empty README file template, press ente
 This app's code was sourced from a Uconn web development bootcamp in the following repo: https://git.bootcampcontent.com/University-of-Connecticut/CONN-VIRT-FSF-PT-07-2023-U-LOLC.git. Each of the functions were built my me on top of the sourced code structure.
 
 ## License
-This project is not protected under any license.
+This project is protected under MIT License
 
-
+For more information about this license, click the following link: https://opensource.org/licenses/MIT
 
 ## Questions
 To view more of my work, view my GitHub profile: [adaking1](https://github.com/adaking1)
 
 If you have any questions about this project please email me here: kinga1215@yahoo.com
+
