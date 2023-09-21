@@ -54,6 +54,13 @@ function init() {
     }
 }
 
+// This function writes to a file if it's already there, if not, it creates one 
+// the function being called as the second argument in writeFile comes from the generateMarkdown.js file. It provides the markdown format
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, generator.markdown(data));
+    console.log("Your new README file has been created!");
+}
+
 // This function call initializes the app when "node index.js" is entered in the terminal
 init();
 
